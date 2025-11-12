@@ -6,11 +6,10 @@ from post_generator import generate_post
 # Options for length and language
 length_options = ["Short", "Medium", "Long"]
 language_options = ["English", "Hinglish"]
-
+st.set_page_config(page_title = "LinkdeIn Post Generator...", page_icon = "🔗")
 
 # Main app layout
 def main():
-    st.title("LinkdeIn Post Generator...")
     st.subheader("LinkedIn Post Generator: Aftab Alam")
 
     # Create three columns for the dropdowns
