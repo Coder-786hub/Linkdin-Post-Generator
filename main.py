@@ -10,6 +10,7 @@ language_options = ["English", "Hinglish"]
 
 # Main app layout
 def main():
+    st.title("LinkdeIn Post Generator...")
     st.subheader("LinkedIn Post Generator: Aftab Alam")
 
     # Create three columns for the dropdowns
